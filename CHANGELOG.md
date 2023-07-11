@@ -736,17 +736,18 @@
 * Fix validate input arguments.
 
 ## 1.1.2
-
-* Improve `Code Climate` report.
-
+- append new presset `analysis_options.1.0.0.yaml`
 ## 1.1.1
-
-* Added support extension methods.
-
+- Rename common rules to dart rules
 ## 1.1.0
+- Added new presets
+- Removed Angular framework rules
+- Added example
 
-* Added support for `Code Climate`.
+## 1.0.2
+- Fix: report in IDE'S is adjusted
+## 1.0.1
+- Automated publishing of packages to pub.dev
 
 ## 1.0.0
-
-* Initial release.
+- Fork: [Dart code metrics 5.7.3](https://github.com/dart-code-checker/dart-code-metrics)

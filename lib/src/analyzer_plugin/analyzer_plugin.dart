@@ -6,13 +6,12 @@ import 'package:analyzer/dart/analysis/analysis_context_collection.dart';
 import 'package:analyzer/dart/analysis/results.dart';
 import 'package:analyzer_plugin/plugin/plugin.dart';
 import 'package:analyzer_plugin/protocol/protocol_generated.dart' as plugin;
-import 'package:http/http.dart';
 import 'package:uuid/uuid.dart';
 
 import '../analyzers/lint_analyzer/lint_analysis_config.dart';
 import '../analyzers/lint_analyzer/lint_analysis_options_validator.dart';
 import '../analyzers/lint_analyzer/lint_analyzer.dart';
-import '../analyzers/lint_analyzer/metrics/metrics_list/number_of_parameters_metric.dart';
+import '../analyzers/lint_analyzer/metrics/metrics_list/number_of_parameters/number_of_parameters_metric.dart';
 import '../analyzers/lint_analyzer/metrics/metrics_list/source_lines_of_code/source_lines_of_code_metric.dart';
 import '../config_builder/config_builder.dart';
 import '../config_builder/models/analysis_options.dart';
@@ -28,22 +27,22 @@ class AnalyzerPlugin extends ServerPlugin {
 
   @override
   String get contactInfo =>
-      'https://github.com/dart-code-checker/dart-code-metrics/issues';
+      'https://github.com/bancolombia/dart-code-linter/issues';
 
   @override
   List<String> get fileGlobsToAnalyze => const ['*.dart', '*.yaml'];
 
   @override
-  String get name => 'DCM $packageVersion';
+  String get name => 'DCL $packageVersion';
 
   @override
-  String get version => '1.0.0-alpha.0';
+  String get version => packageVersion;
 
   AnalyzerPlugin({
     required super.resourceProvider,
   }) {
     final location =
-        resourceProvider.getStateLocation('.dart-code-metrics-uuid');
+        resourceProvider.getStateLocation('.dart-code-linter-uuid');
     if (location == null) {
       return;
     }
@@ -59,10 +58,6 @@ class AnalyzerPlugin extends ServerPlugin {
     } else {
       uuid = file.readAsStringSync();
     }
-
-    final uri = Uri.parse('https://dcm.dev/api/analytics/usage');
-
-    post(uri, body: {'uuid': uuid, 'version': packageVersion}).ignore();
   }
 
   @override
