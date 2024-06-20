@@ -9,6 +9,7 @@
 
 * the version should be updated in:
   * ./CHANGELOG.md
+  * ./CONTRIBUTING.md
   * ./pubspec.yaml
   * ./lib/src/version.dart
   * ./tools/analyzer_plugin/pubspec.yaml

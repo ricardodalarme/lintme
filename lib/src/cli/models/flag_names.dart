@@ -16,7 +16,6 @@ class FlagNames {
   static const version = 'version';
   static const verbose = 'verbose';
   static const printConfig = 'print-config';
-  static const disableMessage = 'disable-sunset-warning';
 
   static const consoleReporter = ConsoleReporter.id;
   static const consoleVerboseReporter = ConsoleReporter.verboseId;
