@@ -51,7 +51,7 @@ jobs:
           sdk: "stable"
 
       - name: Checkout
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       - name: Install dependencies
         run: dart pub get
@@ -99,7 +99,7 @@ jobs:
           sdk: "stable"
 
       - name: Checkout
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       - name: Install dependencies
         run: dart pub get
@@ -127,7 +127,7 @@ jobs:
           sdk: "2.18.0"
 
       - name: Checkout
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       - name: Install dependencies
         run: dart pub downgrade
@@ -148,7 +148,7 @@ jobs:
           sdk: "beta"
 
       - name: Checkout
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       - name: Install dependencies
         run: dart pub upgrade
@@ -169,7 +169,7 @@ jobs:
           sdk: "stable"
 
       - name: Checkout
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       - name: Install dependencies
         run: dart pub get
