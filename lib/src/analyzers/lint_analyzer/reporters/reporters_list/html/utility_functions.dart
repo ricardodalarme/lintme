@@ -42,6 +42,7 @@ Element renderSummaryMetric(
       ..text = fullValue);
 }
 
+// ignore: long-method
 Element renderTableRecord(ReportTableRecord record) {
   final report = record.report;
   final recordHaveCyclomaticComplexityViolations =

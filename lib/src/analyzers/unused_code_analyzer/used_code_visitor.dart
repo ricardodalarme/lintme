@@ -3,7 +3,6 @@
 import 'package:analyzer/dart/ast/ast.dart';
 import 'package:analyzer/dart/ast/visitor.dart';
 import 'package:analyzer/dart/element/element.dart';
-import 'package:collection/collection.dart';
 
 import '../../utils/flutter_types_utils.dart';
 import 'models/file_elements_usage.dart';
@@ -22,7 +21,7 @@ class UsedCodeVisitor extends RecursiveAstVisitor<void> {
         final uri = config.resolvedUri;
 
         return (uri is DirectiveUriWithSource) ? uri.source.fullName : null;
-      }).whereNotNull();
+      }).nonNulls;
       // ignore: deprecated_member_use
       final mainImport = node.element2?.importedLibrary?.source.fullName;
 

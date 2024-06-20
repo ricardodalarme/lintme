@@ -23,7 +23,7 @@ class _Visitor extends GeneralizingAstVisitor<void> {
         .whereNot((field) => field.isStatic)
         .map((declaration) =>
             declaration.fields.variables.firstOrNull?.name.lexeme)
-        .whereNotNull()
+        .nonNulls
         .toSet();
 
     if (isMixin) {

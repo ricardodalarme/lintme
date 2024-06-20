@@ -68,6 +68,7 @@ class LintHtmlReporter extends HtmlReporter<LintFileReport, LintReportParams> {
     _generateFoldersReports(reportFolder, records);
   }
 
+  // ignore: long-method
   Element _generateTable(String title, Iterable<ReportTableRecord> records) {
     final sortedRecords = records.toList()
       ..sort((a, b) => a.title.compareTo(b.title));
@@ -324,6 +325,7 @@ class LintHtmlReporter extends HtmlReporter<LintFileReport, LintReportParams> {
       );
   }
 
+  // ignore: long-method
   void _generateSourceReport(String reportDirectory, LintFileReport record) {
     final sourceFileContent = File(record.path).readAsStringSync();
     final sourceFileLines = LineSplitter.split(sourceFileContent);

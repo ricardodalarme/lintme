@@ -3,10 +3,10 @@ description: This pubspec determines the version of the analyzer plugin to load.
 version: 5.7.5
 
 environment:
-  sdk: ">=2.14.0 <3.0.0"
+  sdk: ">=3.0.0 <4.0.0"
 
 dependencies:
   dart_code_metrics: 5.7.5
 
 dev_dependencies:
-  lints: ^1.0.1
+  lints: ^4.0.0
