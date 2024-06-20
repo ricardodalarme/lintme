@@ -76,17 +76,10 @@ class CyclomaticComplexityFlowVisitor extends RecursiveAstVisitor<void> {
   }
 
   @override
-  void visitSwitchCase(SwitchCase node) {
+  void visitSwitchStatement(SwitchStatement node) {
     _increaseComplexity(node);
 
-    super.visitSwitchCase(node);
-  }
-
-  @override
-  void visitSwitchDefault(SwitchDefault node) {
-    _increaseComplexity(node);
-
-    super.visitSwitchDefault(node);
+    super.visitSwitchStatement(node);
   }
 
   @override

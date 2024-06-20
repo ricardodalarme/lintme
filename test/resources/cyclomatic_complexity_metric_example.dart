@@ -36,7 +36,7 @@ Stream<String> veryComplexFunction() async* {
     const bb = '';
   }
 
-  // SwitchDefault
+  // SwitchStatement
   switch (c) {
     case 'a':
       break;
