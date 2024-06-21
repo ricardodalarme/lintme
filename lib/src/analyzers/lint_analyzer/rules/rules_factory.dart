@@ -77,6 +77,7 @@ import 'rules_list/prefer_single_widget_per_file/prefer_single_widget_per_file_r
 import 'rules_list/prefer_static_class/prefer_static_class_rule.dart';
 import 'rules_list/prefer_trailing_comma/prefer_trailing_comma_rule.dart';
 import 'rules_list/prefer_using_list_view/prefer_using_list_view_rule.dart';
+import 'rules_list/prefer_wildcard_pattern/prefer_wildcard_pattern_rule.dart';
 import 'rules_list/provide_correct_intl_args/provide_correct_intl_args_rule.dart';
 import 'rules_list/tag_name/tag_name_rule.dart';
 import 'rules_list/use_setstate_synchronously/use_setstate_synchronously_rule.dart';
@@ -170,6 +171,7 @@ final _implementedRules = <String, Rule Function(Map<String, Object>)>{
   PreferStaticClassRule.ruleId: PreferStaticClassRule.new,
   PreferTrailingCommaRule.ruleId: PreferTrailingCommaRule.new,
   PreferUsingListViewRule.ruleId: PreferUsingListViewRule.new,
+  PreferWildcardPatternRule.ruleId: PreferWildcardPatternRule.new,
   ProvideCorrectIntlArgsRule.ruleId: ProvideCorrectIntlArgsRule.new,
   TagNameRule.ruleId: TagNameRule.new,
 };
