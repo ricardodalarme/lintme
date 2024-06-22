@@ -6,14 +6,6 @@
 [![Pub popularity](https://badgen.net/pub/popularity/lintme)](https://pub.dev/packages/lintme/score)
 [![GitHub popularity](https://img.shields.io/github/stars/ricardodalarme/lintme?logo=github&logoColor=white)](https://github.com/ricardodalarme/lintme/stargazers)
 
-<img
-  src="https://raw.githubusercontent.com/ricardodalarme/lintme/master/assets/logo.svg"
-  alt=" logo"
-  height="150" width="150"
-  align="right">
-
-#
-
 **Note: you can find [the full documentation on the website](https://lintme.dev/docs/individuals/getting-started/)**
 
 [Configuration](https://lintme.dev/docs/individuals/configuration/) |
@@ -21,15 +13,7 @@
 [Metrics](https://lintme.dev/docs/individuals/metrics/) |
 [Anti-patterns](https://lintme.dev/docs/individuals/anti-patterns/)
 
-<a href="https://flutter.dev/docs/development/packages-and-plugins/favorites">
-<img
-  src="https://raw.githubusercontent.com/ricardodalarme/lintme/master/assets/flutter-favorite-badge-1200px.png"
-  alt="Flutter Favorite Badge"
-  height="140" width="140"
-  align="right">
-</a>
-
- is a toolkit that helps you identify and fix problems in your Dart and Flutter code. These problems can range from potential runtime bugs and violations of best practices to styling issues.  includes over 70 built-in rules to validate your code against various expectations, and you can customize these rules to fit your specific needs.
+ Lintme is a toolkit that helps you identify and fix problems in your Dart and Flutter code. These problems can range from potential runtime bugs and violations of best practices to styling issues.  includes over 70 built-in rules to validate your code against various expectations, and you can customize these rules to fit your specific needs.
 
 - Reports [code metrics](https://lintme.dev/docs/individuals/metrics/)
 - Provides [additional rules](https://lintme.dev/docs/individuals/rules/) for the dart analyzer
