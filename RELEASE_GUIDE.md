@@ -28,7 +28,7 @@
   ```
 
 * run `dart pub publish`
-* create a [new draft release on GitHub](https://github.com/dart-code-checker/dart-code-metrics/releases)
+* create a [new draft release on GitHub](https://github.com/ricardodalarme/lintme/releases)
   * select the newly created tag
   * generate release notes (clean them from the dependabot updates)
   * publish release

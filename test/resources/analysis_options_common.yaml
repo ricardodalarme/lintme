@@ -7,7 +7,7 @@ analyzer:
     implicit-casts: false
     implicit-dynamic: false
 
-dart_code_metrics:
+lintme:
   metrics-exclude:
     - test/**
   rules:

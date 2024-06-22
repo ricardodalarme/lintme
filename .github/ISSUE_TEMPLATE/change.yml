@@ -6,9 +6,9 @@ labels:
 body:
   - type: input
     attributes:
-      label: DCM version
+      label: Lintme version
       description: |
-        What version of DCM are you currently using?
+        What version of Lintme are you currently using?
       placeholder: |
         e.g. v8.0.0
     validations:
@@ -19,16 +19,16 @@ body:
       description: |
         Please explain your use case in as much detail as possible.
       placeholder: |
-        DCM currently...
+        Lintme currently...
     validations:
       required: true
   - type: textarea
     attributes:
       label: What do you think is the correct solution?
       description: |
-        Please explain how you'd like to change DCM to address the problem.
+        Please explain how you'd like to change Lintme to address the problem.
       placeholder: |
-        I'd like DCM to...
+        I'd like Lintme to...
     validations:
       required: true
   - type: checkboxes

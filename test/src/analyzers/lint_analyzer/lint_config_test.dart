@@ -1,16 +1,16 @@
-import 'package:dart_code_metrics/src/analyzers/lint_analyzer/lint_config.dart';
-import 'package:dart_code_metrics/src/cli/models/parsed_arguments.dart';
-import 'package:dart_code_metrics/src/config_builder/models/analysis_options.dart';
+import 'package:lintme/src/analyzers/lint_analyzer/lint_config.dart';
+import 'package:lintme/src/cli/models/parsed_arguments.dart';
+import 'package:lintme/src/config_builder/models/analysis_options.dart';
 import 'package:test/test.dart';
 
 const _options = AnalysisOptions('path', {
   'include': 'package:pedantic/analysis_options.yaml',
   'analyzer': {
     'exclude': ['test/resources/**'],
-    'plugins': ['dart_code_metrics'],
+    'plugins': ['lintme'],
     'strong-mode': {'implicit-casts': false, 'implicit-dynamic': false},
   },
-  'dart_code_metrics': {
+  'lintme': {
     'anti-patterns': {
       'anti-pattern-id1': true,
       'anti-pattern-id2': false,

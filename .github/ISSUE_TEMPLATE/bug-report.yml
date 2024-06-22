@@ -1,5 +1,5 @@
 name: Bug Report
-description: Create a bug report for DCM
+description: Create a bug report for Lintme
 title: "[BUG] (fill in)"
 assignees: incendial
 labels:
@@ -12,9 +12,9 @@ body:
     attributes:
       label: Environment and configuration
       description: |
-        Please tell us about how you're running DCM.
+        Please tell us about how you're running Lintme.
       value: |
-        DCM version:
+        Lintme version:
         Dart SDK version:
 
         <details>
@@ -49,7 +49,7 @@ body:
     attributes:
       label: What actually happened?
       description: |
-        Please copy-paste the actual DCM output. You can use Markdown in this field.
+        Please copy-paste the actual Lintme output. You can use Markdown in this field.
     validations:
       required: true
   - type: checkboxes

@@ -1,4 +1,4 @@
-dart_code_metrics:
+lintme:
   rules:
     - rule-id10
     - rule-id4

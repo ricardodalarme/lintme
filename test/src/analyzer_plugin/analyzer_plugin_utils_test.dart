@@ -1,9 +1,9 @@
 import 'package:analyzer/dart/analysis/results.dart';
 import 'package:analyzer_plugin/protocol/protocol_common.dart';
-import 'package:dart_code_metrics/src/analyzer_plugin/analyzer_plugin_utils.dart';
-import 'package:dart_code_metrics/src/analyzers/lint_analyzer/models/issue.dart';
-import 'package:dart_code_metrics/src/analyzers/lint_analyzer/models/replacement.dart';
-import 'package:dart_code_metrics/src/analyzers/lint_analyzer/models/severity.dart';
+import 'package:lintme/src/analyzer_plugin/analyzer_plugin_utils.dart';
+import 'package:lintme/src/analyzers/lint_analyzer/models/issue.dart';
+import 'package:lintme/src/analyzers/lint_analyzer/models/replacement.dart';
+import 'package:lintme/src/analyzers/lint_analyzer/models/severity.dart';
 import 'package:mocktail/mocktail.dart';
 import 'package:source_span/source_span.dart';
 import 'package:test/test.dart';

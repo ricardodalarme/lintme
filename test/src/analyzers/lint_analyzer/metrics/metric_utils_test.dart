@@ -1,5 +1,5 @@
-import 'package:dart_code_metrics/src/analyzers/lint_analyzer/metrics/metric_utils.dart';
-import 'package:dart_code_metrics/src/analyzers/lint_analyzer/metrics/models/metric_value_level.dart';
+import 'package:lintme/src/analyzers/lint_analyzer/metrics/metric_utils.dart';
+import 'package:lintme/src/analyzers/lint_analyzer/metrics/models/metric_value_level.dart';
 import 'package:test/test.dart';
 
 class ExampleImpl {}
@@ -13,7 +13,7 @@ void main() {
       expect(
         documentation(metricId1).toString(),
         equals(
-          'https://dcm.dev/docs/individuals/metrics/metric-id-1',
+          'https://lintme.dev/docs/individuals/metrics/metric-id-1',
         ),
       );
       expect(

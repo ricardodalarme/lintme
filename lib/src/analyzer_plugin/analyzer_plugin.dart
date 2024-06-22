@@ -27,14 +27,13 @@ class AnalyzerPlugin extends ServerPlugin {
   AnalysisContextCollection? _contextCollection;
 
   @override
-  String get contactInfo =>
-      'https://github.com/dart-code-checker/dart-code-metrics/issues';
+  String get contactInfo => 'https://github.com/ricardodalarme/lintme/issues';
 
   @override
   List<String> get fileGlobsToAnalyze => const ['*.dart', '*.yaml'];
 
   @override
-  String get name => 'DCM $packageVersion';
+  String get name => 'Lintme $packageVersion';
 
   @override
   String get version => '1.0.0-alpha.0';
@@ -60,7 +59,7 @@ class AnalyzerPlugin extends ServerPlugin {
       uuid = file.readAsStringSync();
     }
 
-    final uri = Uri.parse('https://dcm.dev/api/analytics/usage');
+    final uri = Uri.parse('https://lintme.dev/api/analytics/usage');
 
     post(uri, body: {'uuid': uuid, 'version': packageVersion}).ignore();
   }

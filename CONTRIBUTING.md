@@ -76,7 +76,7 @@ To create a new rule:
 
 9. Add the rule tests under `test/analyzers/lint_analyzer/rules/rules_list/`. Prefer to split test examples to a correct/incorrect groups.
 10. Add rule into appropriate presets file: `lib/presets/dart_all.yaml` or `lib/presets/flutter_all.yaml`.
-11. Before submitting the PR, add the rule documentation to the PR's description. Refer [to this rule](https://dcm.dev/docs/individuals/rules/common/prefer-trailing-comma/) as an example.
+11. Before submitting the PR, add the rule documentation to the PR's description. Refer [to this rule](https://lintme.dev/docs/individuals/rules/common/prefer-trailing-comma/) as an example.
 
 ## Run the plugin in IDE
 
@@ -86,25 +86,25 @@ will need to load the plugin into analysis server.
 To set this up:
 
 1. Clone the repository into `<absolute-path>` directory.
-2. Change the plugin starter `dart_code_metrics` dependency in `tools\analyzer_plugin\pubspec.yaml` to a path dependency:
+2. Change the plugin starter `lintme` dependency in `tools\analyzer_plugin\pubspec.yaml` to a path dependency:
 
     ```yaml
-    name: dart_code_metrics_plugin_loader
+    name: lintme_plugin_loader
     description: This pubspec determines the version of the analyzer plugin to load.
-    version: 5.7.4
+    version: 1.0.0
 
     environment:
-      sdk: ">=2.18.0 <3.0.0"
+      sdk: ">=3.0.0 <4.0.0"
 
     dependencies:
-      dart_code_metrics:
+      lintme:
         path: <absolute-path>
     ```
 
 3. Do the same in your project(s) you wish to work on `dart-code-metrics`: reference it from absolute path.
 4. Run `dart pub get` in:
-   - `dart_code_metrics` working copy
-   - `tools\analyzer_plugin` directory in `dart_code_metrics` working copy
+   - `lintme` working copy
+   - `tools\analyzer_plugin` directory in `lintme` working copy
    - your project directory
 5. For Visual Studio Code on Windows: delete `C:\Users\<your-windows-user-name>\AppData\Local\.dartServer` folder.
    For Android Studio on macOS: delete `/Users/<your-macOS-user-name>/.dartServer` folder.
