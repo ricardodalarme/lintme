@@ -21,11 +21,11 @@ dependencies:
   args: ^2.5.0
   collection: ^1.19.0
   crypto: ^3.0.3
-  dart_code_metrics_presets: ^2.13.0
   file: ^7.0.0
   glob: ^2.1.2
   html: ">=0.15.0 <0.16.0"
   http: ^1.2.1
+  lintme_presets: ^1.0.1
   meta: ^1.15.0
   path: ^1.9.0
   platform: ^3.1.5 # overridden for lowest versions compatibility
