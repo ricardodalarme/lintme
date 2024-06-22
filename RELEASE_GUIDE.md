@@ -16,7 +16,7 @@
 
 ## Publishing
 
-* commit and push all changes to the master branch
+* commit and push all changes to the main branch
 * create a git tag with a new version name
 * run `dart pub publish --dry-run.`. Only one warning is allowed:
 

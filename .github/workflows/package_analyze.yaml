@@ -3,7 +3,7 @@ name: "Analyze package"
 on:
   pull_request:
     branches:
-      - master
+      - main
     paths:
       - "bin/**"
       - "example/**"
@@ -17,7 +17,7 @@ on:
       - "pubspec.yaml"
   push:
     branches:
-      - master
+      - main
     paths:
       - "bin/**"
       - "example/**"

@@ -1,8 +1,8 @@
-[![Build Status](https://shields.io/github/actions/workflow/status/ricardodalarme/lintme/package_analyze.yaml?logo=github&logoColor=white&branch=master)](https://github.com/ricardodalarme/lintme/)
+[![Build Status](https://shields.io/github/actions/workflow/status/ricardodalarme/lintme/package_analyze.yaml?logo=github&logoColor=white&branch=main)](https://github.com/ricardodalarme/lintme/)
 [![Coverage Status](https://img.shields.io/codecov/c/github/ricardodalarme/lintme?logo=codecov&logoColor=white)](https://codecov.io/gh/ricardodalarme/lintme/)
 [![Pub Version](https://img.shields.io/pub/v/lintme?logo=dart&logoColor=white)](https://pub.dev/packages/lintme/)
 [![Dart SDK Version](https://badgen.net/pub/sdk-version/lintme)](https://pub.dev/packages/lintme/)
-[![License](https://img.shields.io/github/license/ricardodalarme/lintme)](https://github.com/ricardodalarme/lintme/blob/master/LICENSE)
+[![License](https://img.shields.io/github/license/ricardodalarme/lintme)](https://github.com/ricardodalarme/lintme/blob/main/LICENSE)
 [![Pub popularity](https://badgen.net/pub/popularity/lintme)](https://pub.dev/packages/lintme/score)
 [![GitHub popularity](https://img.shields.io/github/stars/ricardodalarme/lintme?logo=github&logoColor=white)](https://github.com/ricardodalarme/lintme/stargazers)
 
@@ -112,7 +112,7 @@ lintme:
 
 Rules that marked with 🛠 have auto-fixes available through the IDE context menu. VS Code example:
 
-![VS Code example](https://raw.githubusercontent.com/ricardodalarme/lintme/master/assets/quick-fixes.png)
+![VS Code example](https://raw.githubusercontent.com/ricardodalarme/lintme/main/assets/quick-fixes.png)
 
 ### CLI
 
@@ -151,7 +151,7 @@ It will produce a result in one of the format:
 
 Console report example:
 
-![Console report example](https://raw.githubusercontent.com/ricardodalarme/lintme/master/assets/analyze-console-report.png)
+![Console report example](https://raw.githubusercontent.com/ricardodalarme/lintme/main/assets/analyze-console-report.png)
 
 #### Check unnecessary nullable parameters
 
@@ -171,7 +171,7 @@ It will produce a result in one of the format:
 
 Console report example:
 
-![Console report example](https://raw.githubusercontent.com/ricardodalarme/lintme/master/assets/unnecessary-nullable-console-report.png)
+![Console report example](https://raw.githubusercontent.com/ricardodalarme/lintme/main/assets/unnecessary-nullable-console-report.png)
 
 #### Check unused files
 
@@ -191,7 +191,7 @@ It will produce a result in one of the format:
 
 Console report example:
 
-![Console report example](https://raw.githubusercontent.com/ricardodalarme/lintme/master/assets/unused-files-console-report.png)
+![Console report example](https://raw.githubusercontent.com/ricardodalarme/lintme/main/assets/unused-files-console-report.png)
 
 #### Check unused localization
 
@@ -228,7 +228,7 @@ It will produce a result in one of the format:
 
 Console report example:
 
-![Console report example](https://raw.githubusercontent.com/ricardodalarme/lintme/master/assets/unused-l10n-console-report.png)
+![Console report example](https://raw.githubusercontent.com/ricardodalarme/lintme/main/assets/unused-l10n-console-report.png)
 
 #### Check unused code
 
@@ -248,7 +248,7 @@ It will produce a result in one of the format:
 
 Console report example:
 
-![Console report example](https://raw.githubusercontent.com/ricardodalarme/lintme/master/assets/unused-code-console-report.png)
+![Console report example](https://raw.githubusercontent.com/ricardodalarme/lintme/main/assets/unused-code-console-report.png)
 
 ## Troubleshooting
 
@@ -256,7 +256,7 @@ Please read [the following guide](./TROUBLESHOOTING.md) if the plugin is not wor
 
 ## Contributing
 
-If you are interested in contributing, please check out the [contribution guidelines](https://github.com/ricardodalarme/lintme/blob/master/CONTRIBUTING.md). Feedback and contributions are welcome!
+If you are interested in contributing, please check out the [contribution guidelines](https://github.com/ricardodalarme/lintme/blob/main/CONTRIBUTING.md). Feedback and contributions are welcome!
 
 ## Articles
 

@@ -9,7 +9,7 @@ since we close the issues only after the code is released.
 If you added a new lint rule, here's a checklist for things that will be
 checked during review or continuous integration.
 
-- \[ ] Red the [contributing guidelines](https://github.com/ricardodalarme/lintme/blob/master/CONTRIBUTING.md).
+- \[ ] Red the [contributing guidelines](https://github.com/ricardodalarme/lintme/blob/main/CONTRIBUTING.md).
 - \[ ] Followed lint naming conventions
 - \[ ] Tests pass locally
 - \[ ] Updated the changelog
