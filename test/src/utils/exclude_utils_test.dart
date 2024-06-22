@@ -1,5 +1,5 @@
-import 'package:lintme/src/utils/exclude_utils.dart';
 import 'package:glob/glob.dart';
+import 'package:lintme/src/utils/exclude_utils.dart';
 import 'package:test/test.dart';
 
 void main() {
