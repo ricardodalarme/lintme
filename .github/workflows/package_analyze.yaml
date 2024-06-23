@@ -65,7 +65,7 @@ jobs:
         run: dart analyze --fatal-warnings --fatal-infos .
 
       - name: Analyze by Lintme
-        uses: ricardodalarme/lintme-action@v4.0.0
+        uses: ricardodalarme/lintme-action@1.0.0
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           folders: "bin, example, lib, test"
@@ -121,10 +121,10 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Install Dart 2.18.0
+      - name: Install Dart 3.0.0
         uses: dart-lang/setup-dart@v1
         with:
-          sdk: "2.18.0"
+          sdk: "3.0.0"
 
       - name: Checkout
         uses: actions/checkout@v4
