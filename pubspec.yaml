@@ -1,5 +1,5 @@
 name: lintme
-version: 1.0.0
+version: 1.0.0+1
 description: Software analytics tool that helps developers analyse and improve software quality.
 homepage: https://lintme.dev/
 repository: https://github.com/ricardodalarme/lintme
